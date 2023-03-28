@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid #424242;
+        }
+        td {
+            padding: 6px 12px;
+        }
+    </style>
+    <script defer>
+        window.onload = function() {
+            let data;
+            fetch('./data/test.txt')
+                .then((response) => response.text())
+                .then((text) => {
+                text = text.trim();
+                let arrRows = text.split('\r\n');
+                let rowidx = 0;
+                arrRows.forEach(row => {
+                    let lstBody = document.getElementById('lstBody');
+                    let trEle = lstBody.appendChild(document.createElement('tr'));
+                    trEle.id = 'grid-row-' + rowidx;
+                    
+                    let arrCols = row.split('|');
+                    arrCols.forEach(val => {
+                        let tdEle = trEle.appendChild(document.createElement('td'));
+                        let colidx = 0;
+                        tdEle.id = 'grid-col-' + rowidx++ + '-' + colidx++;
+                        tdEle.textContent = val;
+                    });
+                });
+            });
+            
+        }
+    </script>
+</head>
+
+<body>
+    <table id='lst'>
+        <tbody id='lstBody'>
+            
+        </tbody>
+    </table>
+</body>
+
+</html>
