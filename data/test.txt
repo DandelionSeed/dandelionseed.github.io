@@ -1,2 +1,2 @@
-2019.09.01.|ToBeWAY 입사|신입 교육 수료
-2019.10.07.|SK 그룹 통합 HRIS 구축 사업|ToS 기반 Workday향 Data conversion
+2019.09.01.|ToBeWAY 입사|신입 교육 수료\r\n
+2019.10.07.|SK 그룹 통합 HRIS 구축 사업|ToS 기반 Workday향 Data conversion\r\n
