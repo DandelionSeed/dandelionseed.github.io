@@ -19,7 +19,7 @@
                 .then((response) => response.text())
                 .then((text) => {
                 text = text.trim();
-                let arrRows = text.split('\r\n');
+                let arrRows = text.split('\r');
                 let rowidx = 0;
                 arrRows.forEach(row => {
                     let lstBody = document.getElementById('lstBody');
