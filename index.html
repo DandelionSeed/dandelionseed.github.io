@@ -11,6 +11,9 @@
         td {
             padding: 6px 12px;
         }
+        td:nth-child(2) {
+            background-color: red;
+        }
     </style>
     <script defer>
         window.onload = function() {
@@ -19,9 +22,10 @@
                 .then((response) => response.text())
                 .then((text) => {
                 text = text.trim();
-                let arrRows = text.split('\r');
+                let arrRows = text.split('<eor>');
                 let rowidx = 0;
                 arrRows.forEach(row => {
+                    row = row.trim();
                     let lstBody = document.getElementById('lstBody');
                     let trEle = lstBody.appendChild(document.createElement('tr'));
                     trEle.id = 'grid-row-' + rowidx;
@@ -31,7 +35,8 @@
                         let tdEle = trEle.appendChild(document.createElement('td'));
                         let colidx = 0;
                         tdEle.id = 'grid-col-' + rowidx++ + '-' + colidx++;
-                        tdEle.textContent = val;
+                        val = val.replaceAll('\r\n', '<br>')
+                        tdEle.innerHTML = val;
                     });
                 });
             });
