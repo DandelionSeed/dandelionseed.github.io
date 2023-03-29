@@ -35,7 +35,7 @@
                         let tdEle = trEle.appendChild(document.createElement('td'));
                         let colidx = 0;
                         tdEle.id = 'grid-col-' + rowidx++ + '-' + colidx++;
-                        val = val.replaceAll('\r\n', '<br>')
+                        val = val.replaceAll('\n', '<br>')
                         tdEle.innerHTML = val;
                     });
                 });
