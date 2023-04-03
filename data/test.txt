@@ -1,8 +1,48 @@
-2019.09.01.|ToBeWAY 입사|신입 교육 수료<eor>  
-2019.10.07.|SK 그룹 통합 HRIS 구축 사업|ToS 기반 Workday향 Data conversion  
-엔터가 들어간 내용  
-가나다<eor>  
-9999.12.31.|테스트 문구|
-텍스트 라인 뒤의 라인피드 단순 엔터
-텍스트 라인 뒤의 라인피드 더블 화이트 스페이스 후 엔터  
-ABCDEFG
+2019.09.01.|ToBeWAY 입사|신입 교육 수료<eor>
+2019.10.07.|SK 그룹 통합 HRIS 구축 사업|ToS 기반 Workday향 Data conversion<eor>
+2020.02.01.|ToBeWAY|MDM 솔루션 결함 수정 및 개선사항, 새기능 개발
+Digital Twin 기능 개발
+SAP Data Hub, SAP Data Intelligence Research
+Machine Learning Research
+MDM 기능 소개 영상 촬영 및 편집<eor>
+2020.07.01.|SKE 차세대 ERP BizTalk 프로젝트|3차 차세대 ERP 전환
+6개 모듈 및 어플리케이션 BizTalk 인터페이스 개발<eor>
+2021.02.01.|SKBMP MDM BizTalk I/F 안정화 업무|폴란드 해외법인<eor>
+2021.03.02.|ToBeWAY|ToBeWAY DI v9, ToBeWAY Meta v9 매뉴얼 작성
+Meta 개발
+MDM 개발
+MDM, DQM, META v9 GS 인증 시험 준비 지원<eor>
+2021.06.28.|CJBP 자산화를 위한 메타데이터 표준화 체계 구축 프로젝트|식품, White-Bio BPO 대상 정형/비정형 메타데이터 검색 PoC
+목록 검색 화면 커스텀 구현
+표준화 된 데이터 Meta에 적재<eor>
+2021.07.14.|ToBeWAY|MDM, META 개발<eor>
+2021.09.01.|SK Networks SKR BuyOne 연계시스템 구축 BizTalk 프로젝트|구매포탈, ERP, 전자결재, 세금계산서 시스템 브릿지 및 I/F 25본 개발<eor>
+2021.12.16.|SKC MCNS MES 구축 ERP I/F 개발 BizTalk 프로젝트|ERP-MES I/F 8본 개발
+(기준정보 4본, 생산계획 1본, 생산실적 3본)<eor>
+2022.02.16.|ToBeWAY|텍스트 분류 AI ML모델 연구 및 분석
+BOM Bridge(as MDM Sub-function) 설계 및 개발<eor>
+2022.06.13.|SK Chemicals 데이터레이크 구축 프로젝트|SAP ERP to AWS S3 I/F 개발
+Initial Load Job 112본, Delta Compare Update Job 112본 with SAP BODS
+Datalake 브릿지 개발
+Meta Interface DS Export 기능 커스텀
+Meta 개발서버 구축(Windows Server, MSSQL)
+SAP BODS Server 구축<eor>
+2022.09.06.|ToBeWAY|BOM Bridge(as Distributed Module) 개발
+CAD Exchanger 라이브러리 구매 건 커뮤니케이션 담당
+JNI 적용 어플리케이션 빌드
+MDM Tenant custom impl 구현<eor>
+2022.09.29.|CTP 2D, 3D 도면 정보 전환 활용 시스템 구축(0.5)|BOM Bridge 개발 및 서버 구축
+요구사항 기능 커스텀 구현
+Integration 구현(with 통합 운영 시스템) using REST API<eor>
+2022.10.25.|CTP 디지털트윈 작업표준서 운영시스템 구축(0.5)|DT SOP 개발 및 서버 구축
+공정, 설비, 제품 모델링
+공정 그래프 편집 및 조회 화면 커스터마이징
+기능 설계<eor>
+2023.01.08.|ToBeWAY|CTP DTSOP 안정화 및 검수보고 지원
+Flutter R&D<eor>
+2023.02.01.|CJBP 데이터 표준화 기반 전문 검색 구현 프로젝트|Meta 서버 구축(Ubuntu, PostgreSQL)
+테이블구조 권한 적용 커스터마이징
+정형 메타데이터 검색 API 5건 개발
+연구소 NAS to IDC 실험 데이터 인터페이스 7본 개발
+실험 데이터 대상 검색 키워드 추출 ETL Job I/F 7본 개발<eor>
+2023.03.20.|ToBeWAY|LGIT MMD 라우트 모델링 개발
