@@ -3,16 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Résumé</title>
     <style>
         table {
-            border: 1px solid #424242;
+            margin: auto;
+            border-collapse: collapse;
+            color: #40242B; /* monochromatic-darkest */
         }
         td {
             padding: 6px 12px;
         }
-        td:nth-child(2) {
-            background-color: red;
+        tr:nth-child(even) {
+            border-bottom: 3px solid #be3455;
+        }
+        tr:nth-child(odd) {
+            border-bottom: 3px solid #73142A;
         }
     </style>
     <script defer>
