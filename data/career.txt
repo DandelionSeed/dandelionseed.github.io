@@ -52,4 +52,7 @@ I/F 개발: ERP, BION, GEMS
 MDM 기준정보 현황판 개발
 BOS MP 기준 마스터 사전점검을 위한 DQ 및 현황판 개발<eor>
 2023.12.18.|ToBeWAY|신규 마스터 AI기반 분류 추천기능 연구 및 개발<eor>
-2024.01.03.|ToBeWAY 퇴사|퇴사
+2024.01.03.|ToBeWAY 퇴사|퇴사<eor>
+2025.06.16.|ToBeWAY 입사|Google Document AI resaerch
+DHL API
+UIPath Document Understanding<eor>
